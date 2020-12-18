@@ -18,7 +18,7 @@ public class TestPrueba2 {
 	@Test
 	public void testCuadradoNum() {
 		int resultado = p.cuboNum(2);
-		int resultadoEsperado = 6;
+		int resultadoEsperado = 8;
 		assertEquals(resultadoEsperado, resultado);
 	}
 
