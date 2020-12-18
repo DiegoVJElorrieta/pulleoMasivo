@@ -11,7 +11,7 @@ public class TestPrueba {
 	@Test
 	public void testMensaje() {
 		String resultado = p.mensaje("hola");
-		String resultadoEsperado = "hola";
+		String resultadoEsperado = "adios";
 		assertEquals(resultadoEsperado, resultado);
 	}
 
